@@ -13,7 +13,7 @@ int main()
 		{
 			
 			struct stat st;
-			stat(file->d_name,&st);
+			//stat(file->d_name,&st);
 			cout<<file->d_name<<endl;
 		}
 		closedir(dir);
