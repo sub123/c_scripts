@@ -14,6 +14,7 @@ int main()
 			
 			struct stat st;
 			//stat(file->d_name,&st);
+			//hello
 			cout<<file->d_name<<endl;
 		}
 		closedir(dir);
